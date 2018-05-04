@@ -13,6 +13,7 @@ public class BowlingGameTest extends TestCase {
 
     private Game g;
 
+    @Before
     protected void setUp() throws Exception {
         g = new Game();
     }
